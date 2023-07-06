@@ -19,6 +19,7 @@ body {
 .header {
   background-image: url("../images/pattern.jpeg");
   background-size: cover;
+  width: 100%;
   padding: 4rem;
 }
 
