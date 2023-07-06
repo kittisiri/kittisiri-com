@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+/* End of CSS Reset */
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  /* page background */
+  background-color: rgb(165, 191, 182);
+}
+
+.header {
+  background-image: url("../images/pattern.jpeg");
+  background-size: cover;
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(244, 243, 222);
+}
+
+.product-grid {
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 3rem;
+  padding: 3rem;
+}
+
+/* making grid columns responsive to screen size */
+@media (max-width: 899px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 900px) and (max-width: 1349px) {
+  .product-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1350px) and (max-width: 1799px) {
+  .product-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1800px) {
+  .product-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.product-box {
+  background-color: rgb(244, 243, 222);
+  border-radius: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.brushes {
+  background-color: rgb(126, 100, 29);
+}
+
+.frames {
+  background-color: rgb(126, 60, 29);
+}
+
+.paint {
+  background-color: rgb(29, 105, 126);
+}
+
+.product-image {
+  display: block;
+  width: max-content;
+  margin: 2rem auto 1rem;
+  border-radius: 1rem;
+}
+
+.product-info {
+  padding: 1rem 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+.price {
+  font-style: italic;
+  color: gray;
+}
