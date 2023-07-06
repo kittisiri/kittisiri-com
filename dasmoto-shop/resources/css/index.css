@@ -86,7 +86,6 @@ h2 {
 
 .product-image {
   display: block;
-  width: max-content;
   margin: 2rem auto 1rem;
   border-radius: 1rem;
 }
