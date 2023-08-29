@@ -7,14 +7,14 @@
 		<title>CSS Demystified Module 4</title>
 	</head>
 
-	<body class="font-ibm-plex-serif p-2 font-extralight text-neutral-900 sm:p-6">
+	<body class="p-2 font-ibm-plex-serif font-extralight text-neutral-900 sm:p-6">
 		<!-- Header -->
 		<header class="relative">
 			<img src="img/logo.svg" alt="" class="absolute left-4 top-4 sm:left-8 sm:top-8" />
 			<ul
-				class="fixed bottom-0 left-0 right-0 m-2 flex justify-around rounded-full bg-neutral-900 pb-2 pt-1 sm:absolute sm:right-8 sm:top-6 sm:m-0 sm:justify-end sm:gap-6 sm:p-0">
+				class="fixed bottom-0 left-0 right-0 mx-16 mb-3 flex justify-around rounded-full bg-primary-400 pb-1 pt-0.5 shadow-lg sm:absolute sm:right-8 sm:top-6 sm:m-0 sm:justify-end sm:gap-6 sm:p-0 sm:shadow-none">
 				<li><a href="" class="font-semibold text-neutral-100 sm:text-neutral-900">Home</a></li>
-				<li><a href="" class="text-neutral-300 sm:text-neutral-900">Blog</a></li>
+				<li><a href="" class="text-neutral-100 sm:text-neutral-900">Blog</a></li>
 			</ul>
 		</header>
 
@@ -26,13 +26,13 @@
 				<p class="text-2xl sm:mt-12 sm:text-4xl">
 					Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
 				</p>
-				<a href="" class="font-ibm-plex-sans block font-semibold">Connect &nbsp; &nbsp; ></a>
+				<a href="" class="block font-ibm-plex-sans font-semibold">Connect &nbsp; &nbsp; ></a>
 			</div>
 		</main>
 
 		<!-- About -->
 		<section class="mx-4 my-16 sm:mx-16">
-			<h2 class="text-primary-400 text-2xl sm:text-4xl">About</h2>
+			<h2 class="text-2xl text-primary-400 sm:text-4xl">About</h2>
 			<p class="text-xl sm:text-2xl">
 				Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna sed do
 				amet.
@@ -44,14 +44,14 @@
 		</section>
 
 		<!-- Blog -->
-		<section class="bg-primary-300 rounded-xl px-4 py-8 sm:px-12 sm:py-16">
-			<h2 class="text-primary-400 text-2xl sm:mx-4 sm:text-4xl">Blog</h2>
+		<section class="rounded-xl bg-primary-300 px-4 py-8 sm:px-12 sm:py-16">
+			<h2 class="text-2xl text-primary-400 sm:mx-4 sm:text-4xl">Blog</h2>
 			<p class="text-2xl sm:mx-4 sm:text-4xl">Latest thoughts, news and ideas</p>
 			<!-- flex card container -->
 			<div class="mt-16 flex flex-col gap-16 sm:mt-12 sm:flex-row sm:items-start sm:gap-0">
 				<!-- card 1 -->
 				<div
-					class="flow-content-small sm:hover:shadow-primary-400/10 flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl">
+					class="flow-content-small flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl sm:hover:shadow-primary-400/10">
 					<img src="img/blog-1.jpg" alt="" class="h-48 w-full rounded-xl object-cover" />
 					<h3 class="text-xl sm:text-2xl">Lorem ipsum dolor sit amet, consectet adipiscing</h3>
 					<p class="font-ibm-plex-sans font-normal">Lorem ipsum dolor sit amet, consectet adipiscing</p>
@@ -62,7 +62,7 @@
 				</div>
 				<!-- card 2 -->
 				<div
-					class="flow-content-small sm:hover:shadow-primary-400/10 flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl">
+					class="flow-content-small flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl sm:hover:shadow-primary-400/10">
 					<img src="img/blog-2.jpg" alt="" class="h-48 w-full rounded-xl object-cover" />
 					<h3 class="text-xl sm:text-2xl">Lorem ipsum</h3>
 					<p class="font-ibm-plex-sans font-normal">Lorem ipsum dolor sit amet, consectet adipiscing</p>
@@ -73,7 +73,7 @@
 				</div>
 				<!-- card 3 -->
 				<div
-					class="flow-content-small sm:hover:shadow-primary-400/10 flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl">
+					class="flow-content-small flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl sm:hover:shadow-primary-400/10">
 					<img src="img/blog-3.jpg" alt="" class="h-48 w-full rounded-xl object-cover" />
 					<h3 class="text-xl sm:text-2xl">Lorem ipsum dolor sit amet, consectet adipiscing</h3>
 					<p class="font-ibm-plex-sans font-normal">Lorem ipsum dolor sit amet, consectet adipiscing</p>
@@ -88,7 +88,7 @@
 		<!-- Inbox -->
 		<section>
 			<div class="mx-4 my-16 sm:mx-16">
-				<h2 class="text-primary-400 text-2xl sm:text-4xl">Inbox</h2>
+				<h2 class="text-2xl text-primary-400 sm:text-4xl">Inbox</h2>
 				<p class="text-2xl sm:text-4xl">Knowledge letters</p>
 			</div>
 			<div class="sm:mx-16">
@@ -97,7 +97,7 @@
 			<!-- form flexbox -->
 			<form action="" method="get" class="mx-4 my-16 sm:mx-16 sm:flex sm:items-center sm:gap-8">
 				<div class="sm:flex-1">
-					<lebel for="name" class="font-ibm-plex-sans block font-normal">Name</lebel>
+					<lebel for="name" class="block font-ibm-plex-sans font-normal">Name</lebel>
 					<input
 						type="text"
 						name="name"
@@ -106,7 +106,7 @@
 						class="mb-8 block w-full border-0 border-b-2 border-neutral-200 px-0.5 focus:border-neutral-900 focus:ring-0 sm:m-0" />
 				</div>
 				<div class="sm:flex-1">
-					<lebel for="email" class="font-ibm-plex-sans block font-normal">Email</lebel>
+					<lebel for="email" class="block font-ibm-plex-sans font-normal">Email</lebel>
 					<input
 						type="email"
 						name="email"
@@ -118,7 +118,7 @@
 					<input
 						type="submit"
 						value="Subscribe &nbsp; &nbsp; >"
-						class="font-ibm-plex-sans block cursor-pointer py-1 font-semibold" />
+						class="block cursor-pointer py-1 font-ibm-plex-sans font-semibold" />
 				</div>
 			</form>
 		</section>
