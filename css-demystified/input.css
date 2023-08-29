@@ -1,0 +1,28 @@
+/* Google Font - Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Google Font - IBM Plex Sans, IBM Plex Serif */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&family=IBM+Plex+Serif:wght@200;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+
+@layer components {
+	.class-with-tailwind-css {
+		@apply m-4 p-2;
+	}
+
+	.class-with-vanilla-css {
+		margin: 16px;
+		padding: 8px;
+	}
+
+	.flow-content > * + * {
+		@apply mt-8;
+	}
+
+	.flow-content-small > * + * {
+		@apply mt-4;
+	}
+}
+
+@tailwind utilities;

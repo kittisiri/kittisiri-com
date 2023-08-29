@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="output.css" />
+		<title>CSS Demystified Module 4</title>
+	</head>
+
+	<body class="p-2 font-ibm-plex-serif font-extralight text-neutral-900 sm:p-6">
+		<!-- Header -->
+		<header class="relative">
+			<img src="img/logo.svg" alt="" class="absolute left-4 top-4 sm:left-8 sm:top-8" />
+			<ul
+				class="fixed bottom-0 left-0 right-0 mx-16 mb-4 flex justify-around rounded-full bg-primary-400 pb-1 pt-0.5 shadow-lg sm:absolute sm:right-8 sm:top-6 sm:m-0 sm:justify-end sm:gap-6 sm:p-0 sm:shadow-none">
+				<li><a href="#/" class="font-semibold text-neutral-100 sm:text-neutral-900">Home</a></li>
+				<li><a href="#/" class="text-neutral-100 sm:text-neutral-900">Blog</a></li>
+			</ul>
+		</header>
+
+		<!-- Main -->
+		<main>
+			<img src="img/hero.jpg" alt="" class="aspect-[4/3] w-full rounded-xl object-cover sm:aspect-auto" />
+			<div class="flow-content mx-4 mt-8 sm:mx-16">
+				<h1 class="text-4xl sm:text-7xl">Lorem ipsum dolor sit amet, consectet adipiscing</h1>
+				<p class="text-2xl sm:mt-12 sm:text-4xl">
+					Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+				</p>
+				<a href="#/" class="block font-ibm-plex-sans font-semibold">Connect &nbsp; &nbsp; ></a>
+			</div>
+		</main>
+
+		<!-- About -->
+		<section class="mx-4 my-16 sm:mx-16">
+			<h2 class="text-2xl text-primary-400 sm:text-4xl">About</h2>
+			<p class="text-xl sm:text-2xl">
+				Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna sed do
+				amet.
+			</p>
+			<p class="mt-8 text-xl sm:text-2xl">
+				Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem
+				ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+			</p>
+		</section>
+
+		<!-- Blog -->
+		<section class="rounded-xl bg-primary-300 px-4 py-8 sm:px-12 sm:py-16">
+			<h2 class="text-2xl text-primary-400 sm:mx-4 sm:text-4xl">Blog</h2>
+			<p class="text-2xl sm:mx-4 sm:text-4xl">Latest thoughts, news and ideas</p>
+			<!-- flex card container -->
+			<div class="mt-16 flex flex-col gap-16 sm:mt-12 sm:flex-row sm:items-start sm:gap-0">
+				<!-- card 1 -->
+				<div
+					class="flow-content-small flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl sm:hover:shadow-primary-400/10">
+					<img src="img/blog-1.jpg" alt="" class="h-48 w-full rounded-xl object-cover" />
+					<h3 class="text-xl sm:text-2xl">Lorem ipsum dolor sit amet, consectet adipiscing</h3>
+					<p class="font-ibm-plex-sans font-normal">Lorem ipsum dolor sit amet, consectet adipiscing</p>
+					<div class="flex gap-8 text-xs">
+						<p>Oct 8</p>
+						<p>8 min read</p>
+					</div>
+				</div>
+				<!-- card 2 -->
+				<div
+					class="flow-content-small flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl sm:hover:shadow-primary-400/10">
+					<img src="img/blog-2.jpg" alt="" class="h-48 w-full rounded-xl object-cover" />
+					<h3 class="text-xl sm:text-2xl">Lorem ipsum</h3>
+					<p class="font-ibm-plex-sans font-normal">Lorem ipsum dolor sit amet, consectet adipiscing</p>
+					<div class="flex gap-8 text-xs">
+						<p>Oct 8</p>
+						<p>8 min read</p>
+					</div>
+				</div>
+				<!-- card 3 -->
+				<div
+					class="flow-content-small flex-1 transition duration-300 sm:cursor-pointer sm:rounded-xl sm:p-4 sm:hover:bg-white sm:hover:shadow-xl sm:hover:shadow-primary-400/10">
+					<img src="img/blog-3.jpg" alt="" class="h-48 w-full rounded-xl object-cover" />
+					<h3 class="text-xl sm:text-2xl">Lorem ipsum dolor sit amet, consectet adipiscing</h3>
+					<p class="font-ibm-plex-sans font-normal">Lorem ipsum dolor sit amet, consectet adipiscing</p>
+					<div class="flex gap-8 text-xs">
+						<p>Oct 8</p>
+						<p>8 min read</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Inbox -->
+		<section>
+			<div class="mx-4 my-16 sm:mx-16">
+				<h2 class="text-2xl text-primary-400 sm:text-4xl">Inbox</h2>
+				<p class="text-2xl sm:text-4xl">Knowledge letters</p>
+			</div>
+			<div class="sm:mx-16">
+				<img src="img/newsletter.jpg" alt="" class="aspect-[4/3] w-full rounded-xl object-cover sm:aspect-auto" />
+			</div>
+			<!-- form flexbox -->
+			<form action="" method="get" class="mx-4 my-16 sm:mx-16 sm:flex sm:items-center sm:gap-8">
+				<div class="sm:flex-1">
+					<lebel for="name" class="block font-ibm-plex-sans font-normal">Name</lebel>
+					<input
+						type="text"
+						name="name"
+						required
+						placeholder="Your Name"
+						class="mb-8 block w-full border-0 border-b-2 border-neutral-200 px-0.5 focus:border-neutral-900 focus:ring-0 sm:m-0" />
+				</div>
+				<div class="sm:flex-1">
+					<lebel for="email" class="block font-ibm-plex-sans font-normal">Email</lebel>
+					<input
+						type="email"
+						name="email"
+						required
+						placeholder="youremail@domain.com"
+						class="mb-8 block w-full border-0 border-b-2 border-neutral-200 px-0.5 focus:border-neutral-900 focus:ring-0 sm:m-0" />
+				</div>
+				<div>
+					<input
+						type="submit"
+						value="Subscribe &nbsp; &nbsp; >"
+						class="block cursor-pointer py-1 font-ibm-plex-sans font-semibold" />
+				</div>
+			</form>
+		</section>
+
+		<!-- Footer -->
+		<footer class="mx-4 mb-24 mt-36 border-t-2 pt-8 sm:mx-16 sm:mb-12">
+			<div class="grid sm:grid-cols-4">
+				<img src="img/logo.svg" alt="" class="mb-12 sm:col-span-2 sm:mt-2" />
+				<ul class="flow-content-small mb-12">
+					<li>Map</li>
+					<li><a href="#/" class="font-ibm-plex-sans text-sm font-semibold">Blog</a></li>
+					<li><a href="#/" class="font-ibm-plex-sans text-sm font-semibold">Privacy</a></li>
+				</ul>
+				<ul class="flow-content-small">
+					<li>Resources</li>
+					<li><a href="#/" class="font-ibm-plex-sans text-sm font-semibold">Courses</a></li>
+					<li><a href="#/" class="font-ibm-plex-sans text-sm font-semibold">Hacks</a></li>
+					<li><a href="#/" class="font-ibm-plex-sans text-sm font-semibold">Free stuff</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
+
+<!-- npm run dev -->
